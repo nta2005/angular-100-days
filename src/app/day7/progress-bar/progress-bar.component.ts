@@ -32,11 +32,11 @@ export class ProgressBarComponent implements OnInit, OnChanges {
   @Input() progressColor = 'tomato'
 
   constructor() {
-    console.log({
-      progress: this.progress,
-      backgroundColor: this.backgroundColor,
-      progressColor: this.progressColor
-    })
+    // console.log({
+    //   progress: this.progress,
+    //   backgroundColor: this.backgroundColor,
+    //   progressColor: this.progressColor
+    // })
   }
 
 
