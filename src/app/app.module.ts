@@ -10,6 +10,9 @@ import { Day5Component } from './day5/day5.component';
 import { Day6Component } from './day6/day6.component';
 import { Day7Component } from './day7/day7.component';
 import { ProgressBarComponent } from './day7/progress-bar/progress-bar.component';
+import { Day8Component } from './day8/day8.component';
+import { AuthorListComponent } from './day8/authors/author-list/author-list.component';
+import { AuthorDetailComponent } from './day8/authors/author-detail/author-detail.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +23,10 @@ import { ProgressBarComponent } from './day7/progress-bar/progress-bar.component
     Day5Component,
     Day6Component,
     Day7Component,
-    ProgressBarComponent //component in day7
+    ProgressBarComponent, //component in day7
+    Day8Component,
+    AuthorListComponent,
+    AuthorDetailComponent
   ],
   imports: [
     BrowserModule,
