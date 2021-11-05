@@ -1,0 +1,12 @@
+<h4>Day3: ANGULAR DATA BINDING</h4>
+<h4>Title: {{ title }}</h4>
+<h4>Title2: {{ title2 }}</h4>
+
+<h3>Your name: {{ user.name }}</h3>
+<p>Your age: {{ user.age }}</p>
+<input type="text" [value]="user.name" />
+<button type="button" (click)="handler()">Click me</button>
+<br /><br />
+<input type="text" [(ngModel)]="title" />
+<br /><br />
+<input type="text" [ngModel]="title2" (ngModelChange)="title2 = $event" />

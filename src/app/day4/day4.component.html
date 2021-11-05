@@ -1,0 +1,10 @@
+<h3>Day4: ANGULAR STRUCTURE DIRECTIVE - NGIF</h3>
+
+<h3 *ngIf="user.age >= 18; else under18">Hello {{user.name}}</h3>
+<ng-template #under18>
+  <h3>Bạn không thể xem nội dung 18+</h3>
+</ng-template>
+
+<button (click)="user.age = user.age - 1">-</button>
+Age: {{ user.age }}
+<button (click)="user.age = user.age + 1">+</button>
