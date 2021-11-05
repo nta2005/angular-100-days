@@ -1,0 +1,42 @@
+<p>Day6: ATTRIBUTE DIRECTIVE</p>
+
+<button (click)="isDanger = !isDanger">Toggle Danger</button>
+<br><br>
+<button (click)="isWarning = !isWarning">Toggle Warning</button>
+
+<!---
+- [class.ten-class]
+- [class] = "array"
+- [class] = "object" {[ten-class: string]: boolean}
+- [class] = variable
+--->
+
+<!-- <div class="box red-border yellow-background"></div> -->
+
+<!-- [class.ten-class] -->
+<div class="box" [class.red-border]="isDanger" [class.yellow-background]="isWarning"></div>
+
+<!-- [class] = "array" -->
+<!-- <div class="box" [class]="['red-border','yellow-background']"></div> -->
+
+<!-- [class] = "object" -->
+<!-- <div class="box" [class]="{'red-border': isDanger,'yellow-background':isWarning}"></div> -->
+
+<!-- [class] = variable -->
+<!-- <div [class]="classes"></div> -->
+
+<!--
+  - [style.tenStyle]
+  - [style.ten-style]
+  - [style.tenStyle.unit]
+  - [style]="object"
+  - [style.css-variable]
+-->
+
+<!-- <p [style.color]="'red'" [style.backgroundColor]="'yellow'" [style.fontSize.px]="'20'">Start editing to see some magic happen :)</p> -->
+
+<!-- <p [style]="{color:'red', backgroundColor:'yellow', fontSize:'20px'}">Start editing to see some magic happen :)</p> -->
+
+<p [style.--text-color]="isDanger ? 'red': 'blue'"
+  [style]="{color:'var(--text-color)', backgroundColor:'yellow', fontSize:'20px'}">
+  Start editing to see some magichappen :)</p>
