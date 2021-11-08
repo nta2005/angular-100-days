@@ -1,0 +1,19 @@
+<p>Day 10 - ViewChild/ViewChildren</p>
+
+<input #nameInput type="text" [(ngModel)]="name">
+<button (click)="showLast = !showLast">Toggle show last</button>
+
+<br><br>
+
+<!-- toggleComp là instance của ToggleComponent-->
+<!-- <toggle #toggleComp [(checked)]="isChecked"></toggle> -->
+
+
+<toggle [(checked)]="isChecked"></toggle>
+<toggle [(checked)]="isChecked"></toggle>
+<toggle [(checked)]="isChecked"></toggle>
+<ng-container *ngIf="showLast">
+  <toggle [(checked)]="isChecked"></toggle>
+</ng-container>
+
+<!-- <button (click)="toggleComp.toggle()">Toggle me</button> -->

@@ -15,6 +15,7 @@ import { AuthorListComponent } from './day8/authors/author-list/author-list.comp
 import { AuthorDetailComponent } from './day8/authors/author-detail/author-detail.component';
 import { Day9Component } from './day9/day9.component';
 import { ToggleComponent } from './day9/toggle/toggle.component';
+import { Day10Component } from './day10/day10.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { ToggleComponent } from './day9/toggle/toggle.component';
     AuthorListComponent, //component in day8
     AuthorDetailComponent, //component in day8
     Day9Component,
-    ToggleComponent
+    ToggleComponent,
+    Day10Component
   ],
   imports: [
     BrowserModule,
