@@ -13,6 +13,8 @@ import { ProgressBarComponent } from './day7/progress-bar/progress-bar.component
 import { Day8Component } from './day8/day8.component';
 import { AuthorListComponent } from './day8/authors/author-list/author-list.component';
 import { AuthorDetailComponent } from './day8/authors/author-detail/author-detail.component';
+import { Day9Component } from './day9/day9.component';
+import { ToggleComponent } from './day9/toggle/toggle.component';
 
 @NgModule({
   declarations: [
@@ -25,8 +27,10 @@ import { AuthorDetailComponent } from './day8/authors/author-detail/author-detai
     Day7Component,
     ProgressBarComponent, //component in day7
     Day8Component,
-    AuthorListComponent,
-    AuthorDetailComponent
+    AuthorListComponent, //component in day8
+    AuthorDetailComponent, //component in day8
+    Day9Component,
+    ToggleComponent
   ],
   imports: [
     BrowserModule,

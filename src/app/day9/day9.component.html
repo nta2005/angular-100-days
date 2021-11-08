@@ -1,0 +1,19 @@
+<p>Day 9: Custom Two-way Data Binding</p>
+
+<p>
+  Your name: {{ name }}
+</p>
+
+<br>
+
+<input type="text" [(ngModel)]="name">
+
+<br>
+<p>
+  Eq:
+</p>
+<input type="text" [ngModel]="name" (ngModelChange)="name = $event">
+
+<br><br>
+
+<toggle [(checked)]="isChecked"></toggle>
