@@ -19,6 +19,7 @@ import { ToggleComponent } from './day9/toggle/toggle.component';
 import { Day10Component } from './day10/day10.component';
 import { Day11Component } from './day11/day11.component';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { Day12Component } from './day12/day12.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
     Day9Component,
     ToggleComponent,
     Day10Component,
-    Day11Component
+    Day11Component,
+    Day12Component
   ],
   imports: [
     HttpClientModule,
