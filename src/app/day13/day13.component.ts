@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ToggleComponent } from '../toggle/toggle.component';
 
 @Component({
   selector: 'app-day13',
@@ -12,4 +13,10 @@ export class Day13Component implements OnInit {
   ngOnInit(): void {
   }
 
+  name = 'Thanh An'
+
+  question = {
+    question1: true,
+    question2: false
+  }
 }
