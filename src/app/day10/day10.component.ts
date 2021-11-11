@@ -1,4 +1,4 @@
-import { ToggleComponent } from './../day9/toggle/toggle.component';
+import { ToggleComponent } from './../toggle/toggle.component';
 import { Component, ElementRef, OnInit, QueryList, VERSION, ViewChild, ViewChildren } from '@angular/core';
 
 @Component({

@@ -15,11 +15,12 @@ import { Day8Component } from './day8/day8.component';
 import { AuthorListComponent } from './day8/authors/author-list/author-list.component';
 import { AuthorDetailComponent } from './day8/authors/author-detail/author-detail.component';
 import { Day9Component } from './day9/day9.component';
-import { ToggleComponent } from './day9/toggle/toggle.component';
+import { ToggleComponent } from './toggle/toggle.component';
 import { Day10Component } from './day10/day10.component';
 import { Day11Component } from './day11/day11.component';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { Day12Component } from './day12/day12.component';
+import { Day13Component } from './day13/day13.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +39,8 @@ import { Day12Component } from './day12/day12.component';
     ToggleComponent,
     Day10Component,
     Day11Component,
-    Day12Component
+    Day12Component,
+    Day13Component
   ],
   imports: [
     HttpClientModule,
