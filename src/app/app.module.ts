@@ -21,6 +21,8 @@ import { Day11Component } from './day11/day11.component';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { Day12Component } from './day12/day12.component';
 import { Day13Component } from './day13/day13.component';
+import { Day14Component } from './day14/day14.component';
+import { TabsComponent } from './day14/tabs/tabs.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +42,9 @@ import { Day13Component } from './day13/day13.component';
     Day10Component,
     Day11Component,
     Day12Component,
-    Day13Component
+    Day13Component,
+    Day14Component,
+    TabsComponent
   ],
   imports: [
     HttpClientModule,

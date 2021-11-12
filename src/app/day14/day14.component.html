@@ -1,0 +1,25 @@
+<p>Day 14 - ng-template & ng-container</p>
+
+<div class="card mx-4">
+  <div class="card-header">
+    You have selected <ng-container [ngTemplateOutlet]="counterTmpl"></ng-container> items.
+  </div>
+
+  <div class="card-body">
+    There are <ng-container [ngTemplateOutlet]="counterTmpl"></ng-container> items was selected.
+  </div>
+
+  <div class="card-footer">
+    You have selected <ng-container [ngTemplateOutlet]="counterTmpl"></ng-container> items.
+  </div>
+</div>
+
+<ng-template #counterTmpl>
+<span class="badge badge-primary">{{counter}}</span>
+</ng-template>
+
+<ng-template #linkTemplate let-link>
+  <h4>{{link}}</h4>
+</ng-template>
+
+<tabs [navs]="navs" [linkTemplate]="linkTemplate"></tabs>
