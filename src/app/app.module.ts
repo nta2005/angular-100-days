@@ -23,6 +23,7 @@ import { Day12Component } from './day12/day12.component';
 import { Day13Component } from './day13/day13.component';
 import { Day14Component } from './day14/day14.component';
 import { TabsComponent } from './day14/tabs/tabs.component';
+import { Day15Component } from './day15/day15.component';
 
 @NgModule({
   declarations: [
@@ -44,7 +45,8 @@ import { TabsComponent } from './day14/tabs/tabs.component';
     Day12Component,
     Day13Component,
     Day14Component,
-    TabsComponent
+    TabsComponent,
+    Day15Component
   ],
   imports: [
     HttpClientModule,
