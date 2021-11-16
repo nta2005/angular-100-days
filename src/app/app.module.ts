@@ -24,6 +24,10 @@ import { Day13Component } from './day13/day13.component';
 import { Day14Component } from './day14/day14.component';
 import { TabsComponent } from './day14/tabs/tabs.component';
 import { Day15Component } from './day15/day15.component';
+import { Day16Component } from './day16/day16.component';
+import { TabGroupComponent } from './day16/tab-group/tab-group.component';
+import { TabPanelComponent } from './day16/tab-panel/tab-panel.component';
+import { TabBsGroupComponent } from './day16/tab-bs-group/tab-bs-group.component';
 
 @NgModule({
   declarations: [
@@ -46,7 +50,11 @@ import { Day15Component } from './day15/day15.component';
     Day13Component,
     Day14Component,
     TabsComponent,
-    Day15Component
+    Day15Component,
+    Day16Component,
+    TabGroupComponent,
+    TabPanelComponent,
+    TabBsGroupComponent
   ],
   imports: [
     HttpClientModule,
