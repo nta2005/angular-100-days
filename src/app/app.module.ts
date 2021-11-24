@@ -31,6 +31,9 @@ import { TabBsGroupComponent } from './tabs/tab-bs-group/tab-bs-group.component'
 import { Day17Component } from './day17/day17.component';
 import { CounterComponent } from './day17/counter/counter.component';
 import { TabContentDirective } from './tabs/tab-content.directive';
+import { Day18Component } from './day18/day18.component';
+import { FormatAddressPipe } from './day18/format-address.pipe';
+import { AdultPipe } from './day18/adult.pipe';
 
 @NgModule({
   declarations: [
@@ -60,7 +63,10 @@ import { TabContentDirective } from './tabs/tab-content.directive';
     TabBsGroupComponent,
     Day17Component,
     CounterComponent,
-    TabContentDirective
+    TabContentDirective,
+    Day18Component,
+    FormatAddressPipe,
+    AdultPipe
   ],
   imports: [
     HttpClientModule,
